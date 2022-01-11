@@ -1,0 +1,27 @@
+body{
+  background: linear-gradient(to left, rgb(10, 40, 94), rgb(85, 23, 85));
+  color: wheat;
+}
+
+h1 {
+  text-align: center;
+  margin:2em;
+}
+
+.card {
+  background-color: rgba(58, 1, 148, 0.3);
+  margin: 1em;
+  border: outset rgba(34, 34, 34, 0.755) 8px;
+  padding: 2em;
+  cursor: pointer;
+}
+
+footer {
+  margin-top:5em;
+  margin-bottom:1em;
+  text-align:center;
+}
+
+div p {
+  display: none;
+}
