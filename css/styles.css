@@ -16,6 +16,10 @@ h1 {
   cursor: pointer;
 }
 
+.inset {
+  border: inset rgba(34, 34, 34, 0.755) 8px;
+}
+
 footer {
   margin-top:5em;
   margin-bottom:1em;
