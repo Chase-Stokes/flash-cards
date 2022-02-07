@@ -1,45 +1,150 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta http-equiv="X-UA-Compatible" content="IE=edge">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="css/bootstrap.css" rel="stylesheet" type="text/css">
-  <link href="css/styles.css" rel="stylesheet" type="text/css">
-  <script src="js/jquery-3.6.0.js"></script>
-  <script src="js/scripts.js"></script>
-  <title>flash cards</title>
+  <title>Trivia cards</title>
 </head>
 <body>
-  <h1>this is a website describing javascript</h1>
+  <div class="jumbotron">
+    <h1>Trivia Cards</h1>    
+  </div>
   <div class="container">
     <div class="row">
-      <div class="col-6">
-        <div id="card-1" class="card">
-          <h3>concept</h3>
-          <p id="p-1">description</p>
+      <div class="col-4">
+        <div id="card-0" class="card">
+          <div class="flip-card0">
+            <div class="flip-card-inner0">
+              <div class="flip-card-front0">
+                <h3>True or False?</h3>
+                <p class="question0">this will be the question</p>
+                <input type="radio" id="true" name="q0" value="True" checked>
+                <label for="true">True</label>
+                <input type="radio" id="false" name="q0" value="False">
+                <label for="false">False</label> 
+                <br>
+                <button class="q0-btn">Check Answer</button>
+              </div> 
+              <div class="flip-card-back0">
+                <h3>Answer:</h3>
+                <p id="result0"></p> 
+                <div>This Is <span class="answer0"></span>!</div>      
+                <button class="q0-btn">Back</button>      
+              </div>
+            </div>
+          </div>  
         </div>
-        <div id="card-2" class="card">
-          <h3>concept</h3>
-          <p id="p-2">description</p>
-        </div>
-        <div id="card-3" class="card">
-          <h3>concept</h3>
-          <p id="p-3">description</p>
+        <div class="card">
+          <div id="card-1" class="flip-card1">
+            <div class="flip-card-inner1">
+              <div class="flip-card-front1">
+                <h3>True or False?</h3>
+                <p class="question1"></p>
+                <input type="radio" id="true" name="q1" value="True" checked>
+                <label for="true">True</label>
+                <input type="radio" id="false" name="q1" value="False">
+                <label for="false">False</label> 
+                <br>
+                <button class="q1-btn">Check Answer</button>
+              </div>
+              <div class="flip-card-back1">
+                <h3>Answer:</h3>
+                <p id="result1"></p> 
+                <div>This Is <span class="answer1"></span>!</div> 
+                <button class="q1-btn">Back</button>
+              </div>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="col-6">
-        <div id="card-4" class="card">
-          <h3>concept</h3>
-          <p id="p-4">description</p>
+      <div class="col-4">
+        <div class="card">
+          <div id="card-2" class="flip-card2">
+            <div class="flip-card-inner2">
+              <div class="flip-card-front2">
+                <h3>True or False?</h3>
+                <p class="question3"></p>
+                <input type="radio" id="true" name="q2" value="True" checked>
+                <label for="true">True</label>
+                <input type="radio" id="false" name="q2" value="False">
+                <label for="false">False</label> 
+                <br>
+                <button class="q2-btn">Check Answer</button>
+              </div>
+              <div class="flip-card-back2">
+                <h3>Answer:</h3>
+                <p id="result2"></p>
+                <div>This Is <span class="answer2"></span>!</div> 
+                <button class="q2-btn">Back</button>
+              </div>
+            </div>
+          </div> 
         </div>
-        <div id="card-5" class="card">
-          <h3>concept</h3>
-          <p id="p-5">description</p>
+        <div class="card">
+          <div id="card-3" class="flip-card3">
+            <div class="flip-card-inner3">
+              <div class="flip-card-front3">
+                <h3>True or False?</h3>
+                <p class="question3"></p>
+                <input type="radio" id="true" name="q3" value="True" checked>
+                <label for="true">True</label>
+                <input type="radio" id="false" name="q3" value="False">
+                <label for="false">False</label> 
+                <br>
+                <button class="q3-btn">Check Answer</button>
+              </div>
+              <div class="flip-card-back3">
+                <h3>Answer:</h3>
+                <p id="result3"></p> 
+                <div>This Is <span class="answer3"></span>!</div> 
+                <button class="q3-btn">Back</button>
+              </div>
+            </div>
+          </div> 
         </div>
-        <div id="card-6" class="card">
-          <h3>concept</h3>
-          <p id="p-6">description</p>
+      </div>  
+      <div class="col-4">
+        <div class="card">
+          <div id="card-4" class="flip-card4">
+            <div class="flip-card-inner4">
+              <div class="flip-card-front4">
+                <h3>True or False?</h3>
+                <p class="question4"></p>
+                <input type="radio" id="true" name="q4" value="True" checked>
+                <label for="true">True</label>
+                <input type="radio" id="false" name="q4" value="False">
+                <label for="false">False</label> 
+                <br>
+                <button class="q4-btn">Check Answer</button>
+              </div>
+              <div class="flip-card-back4">
+                <h3>Answer:</h3>
+                <p id="result4"></p>
+                <div>This Is <span class="answer4"></span>!</div> 
+                <button class="q4-btn">Back</button>
+              </div>
+            </div>
+          </div> 
+        </div>
+        <div class="card">
+          <div id="card-5" class="flip-card5">
+            <div class="flip-card-inner5">
+              <div class="flip-card-front5">
+                <h3>True or False?</h3>
+                <p class="question5"></p>
+                <input type="radio" id="true" name="q5" value="True" checked>
+                <label for="true">True!</label>
+                <input type="radio" id="false" name="q5" value="False" checked>
+                <label for="false">False!</label>
+                <br>
+                <button class="q5-btn">Check Answer</button>
+              </div>
+              <div class="flip-card-back5">
+                <h3>Answer:</h3>
+                <p id="result5"></p>
+                <div>This Is <span class="answer5"></span>!</div> 
+                <button class="q5-btn">Back</button>
+              </div>
+            </div>
+          </div> 
         </div>
       </div>  
     </div>
